@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://localhost:8000/users/candidates/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+      
+        
+        <meta name="robots" content="NONE,NOARCHIVE">
+      
+
+      <title>Candidate List – Django REST framework</title>
+
+      
+        
+          <link rel="stylesheet" type="text/css" href="./Candidate List – Django REST framework_files/bootstrap.min.css">
+          <link rel="stylesheet" type="text/css" href="./Candidate List – Django REST framework_files/bootstrap-tweaks.css">
+        
+
+        <link rel="stylesheet" type="text/css" href="./Candidate List – Django REST framework_files/prettify.css">
+        <link rel="stylesheet" type="text/css" href="./Candidate List – Django REST framework_files/default.css">
+      
+
+    
+  </head>
+
+  
+  <body class="">
+
+    <div class="wrapper">
+      
+        <div class="navbar navbar-static-top navbar-inverse">
+          <div class="container">
+            <span>
+              
+                <a class="navbar-brand" rel="nofollow" href="http://www.django-rest-framework.org/">
+                    Django REST framework
+                </a>
+              
+            </span>
+            <ul class="nav navbar-nav pull-right">
+              
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </div>
+      
+
+      <div class="container">
+        
+          <ul class="breadcrumb">
+            
+              
+                <li class="active"><a href="http://localhost:8000/users/candidates/">Candidate List</a></li>
+              
+            
+          </ul>
+        
+
+        <!-- Content -->
+        <div id="content">
+
+          
+            <form id="get-form" class="pull-right">
+              <fieldset>
+                
+                  <div class="btn-group format-selection">
+                    <a class="btn btn-primary js-tooltip" href="http://localhost:8000/users/candidates/" rel="nofollow" title="" data-original-title="Make a GET request on the Candidate List resource">GET</a>
+
+                    <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="" data-original-title="Specify a format for the GET request" aria-expanded="false">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="http://localhost:8000/users/candidates/?format=json" rel="nofollow" title="" data-original-title="Make a GET request on the Candidate List resource with the format set to `json`">json</a>
+                        </li>
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="http://localhost:8000/users/candidates/?format=api" rel="nofollow" title="" data-original-title="Make a GET request on the Candidate List resource with the format set to `api`">api</a>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              </fieldset>
+            </form>
+          
+
+          
+            <form class="button-form" action="http://localhost:8000/users/candidates/" data-method="OPTIONS">
+              <button class="btn btn-primary js-tooltip" title="" data-original-title="Make an OPTIONS request on the Candidate List resource">OPTIONS</button>
+            </form>
+          
+
+          
+
+          
+
+            <div class="content-main">
+              <div class="page-header">
+                <h1>Candidate List</h1>
+              </div>
+              <div style="float:left">
+                
+                  <p></p>
+                
+              </div>
+
+              
+
+              <div class="request-info" style="clear: both">
+                <pre class="prettyprint"><b><span class="pln">GET</span></b><span class="pln"> </span><span class="pun">/</span><span class="pln">users</span><span class="pun">/</span><span class="pln">candidates</span><span class="pun">/</span></pre>
+              </div>
+
+              <div class="response-info">
+                <pre class="prettyprint"><span class="meta nocode"><b>HTTP 200 OK</b>
+<b>Allow:</b> <span class="lit">GET, HEAD, OPTIONS</span>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+
+</span><span class="pun">{</span><span class="pln">
+    </span><span class="str">"count"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln">
+    </span><span class="str">"next"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">,</span><span class="pln">
+    </span><span class="str">"previous"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">,</span><span class="pln">
+    </span><span class="str">"results"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="pln">
+        </span><span class="pun">{</span><span class="pln">
+            </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"account"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"email"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"</span><a href="mailto:ait.akkache.soufiane@hotmail.fr"><span class="str">ait.akkache.soufiane@hotmail.fr</span></a><span class="str">"</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"username"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"first_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"soufiane"</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"last_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"ait akkache"</span><span class="pln">
+            </span><span class="pun">},</span><span class="pln">
+            </span><span class="str">"collaborator"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"account"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                    </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">9</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"email"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"</span><a href="mailto:sofi_28301@hotmail.fr"><span class="str">sofi_28301@hotmail.fr</span></a><span class="str">"</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"username"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"first_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"soufiane"</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"last_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"ait akkache"</span><span class="pln">
+                </span><span class="pun">},</span><span class="pln">
+                </span><span class="str">"accountant"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pln">
+            </span><span class="pun">},</span><span class="pln">
+            </span><span class="str">"birth_date"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"2017-05-07"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"city_birth"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"kjhlkjhmkjl"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"department_birth"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"lkjhlkjhlkjh"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"country_birth"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"kljhlkjh"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"address"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"lkjhlkjhlkjh"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"additional_address"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"kljhlkjh"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"zip_code"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">7848454</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"city_address"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"ljjknhkj"</span><span class="pln">
+        </span><span class="pun">},</span><span class="pln">
+        </span><span class="pun">{</span><span class="pln">
+            </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"account"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">10</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"email"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"</span><a href="mailto:sofi_28300@hotmail.fr"><span class="str">sofi_28300@hotmail.fr</span></a><span class="str">"</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"username"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"first_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"oiyhjhliygh"</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"last_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"fguydsfluh"</span><span class="pln">
+            </span><span class="pun">},</span><span class="pln">
+            </span><span class="str">"collaborator"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln">
+                </span><span class="str">"account"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                    </span><span class="str">"id"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">9</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"email"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"</span><a href="mailto:sofi_28301@hotmail.fr"><span class="str">sofi_28301@hotmail.fr</span></a><span class="str">"</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"username"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"first_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"soufiane"</span><span class="pun">,</span><span class="pln">
+                    </span><span class="str">"last_name"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"ait akkache"</span><span class="pln">
+                </span><span class="pun">},</span><span class="pln">
+                </span><span class="str">"accountant"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pln">
+            </span><span class="pun">},</span><span class="pln">
+            </span><span class="str">"birth_date"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"city_birth"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"oiuytr"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"department_birth"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"ertyuioop"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"country_birth"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"rtyuio"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"address"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"rtyuio"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"additional_address"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"hjbnb,nbb"</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"zip_code"</span><span class="pun">:</span><span class="pln"> </span><span class="lit">8445511</span><span class="pun">,</span><span class="pln">
+            </span><span class="str">"city_address"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"jhbjb,b;,"</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">]</span><span class="pln">
+</span><span class="pun">}</span></pre>
+              </div>
+            </div>
+
+            
+              
+
+              
+            
+        </div><!-- /.content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+
+    
+
+    
+      <script>
+        window.drf = {
+          csrfHeaderName: "X-CSRFTOKEN",
+          csrfCookieName: "csrftoken"
+        };
+      </script>
+      <script src="./Candidate List – Django REST framework_files/jquery-1.12.4.min.js"></script>
+      <script src="./Candidate List – Django REST framework_files/ajax-form.js"></script>
+      <script src="./Candidate List – Django REST framework_files/csrf.js"></script>
+      <script src="./Candidate List – Django REST framework_files/bootstrap.min.js"></script>
+      <script src="./Candidate List – Django REST framework_files/prettify-min.js"></script>
+      <script src="./Candidate List – Django REST framework_files/default.js"></script>
+      <script>
+        $(document).ready(function() {
+          $('form').ajaxForm();
+        });
+      </script>
+    
+
+  
+  
+
+</body></html>
