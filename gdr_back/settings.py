@@ -148,7 +148,7 @@ REST_FRAMEWORK = {
 AUTH_USER_MODEL = 'authentication.Account'
 
 DJOSER = {
-    'DOMAIN': 'localhost:4200/#',
+    'DOMAIN': 'localhost:4200',
     'SITE_NAME': 'Rubicom',
     'PASSWORD_RESET_CONFIRM_URL': 'password/reset/confirm/{uid}/{token}',
     'ACTIVATION_URL': 'activate/{uid}/{token}',
